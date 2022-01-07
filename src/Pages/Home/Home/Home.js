@@ -6,7 +6,7 @@ import Products from '../Products/Products';
 import Reviews from '../Reviews/Reviews';
 import WholeSaleProcess from '../WholeSaleProcess/WholeSaleProcess';
 import WhyUs from '../WhyUs/WhyUs';
-
+import Map from '../../Map/Map'
 const Home = () => {
     return (
         <div>
@@ -16,6 +16,7 @@ const Home = () => {
             <WhyUs />
             <WholeSaleProcess />
             <Reviews />
+            <Map></Map>
             <Footer />
         </div>
     );
